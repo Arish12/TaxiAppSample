@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ToggleButton    android:id="@+id/toggleButt"
+        android:textOn=""
+        android:layout_margin="5dp"
+        android:textOff=""
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@drawable/toggle_button_background"
+        android:layout_below="@+id/button1"
+        android:layout_alignEnd="@+id/button1"
+        android:layout_alignRight="@+id/button1"/>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/m"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+
+    <TextView
+        android:id="@+id/setmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+</android.support.design.widget.CoordinatorLayout>

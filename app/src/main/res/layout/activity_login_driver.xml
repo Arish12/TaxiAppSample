@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="#947E00"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:text="Driver login" />
+    </LinearLayout>
+    <View android:id="@+id/titleDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#947E00" />
+
+    <EditText
+        android:id="@+id/driverEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="normal"
+        android:inputType="textEmailAddress"
+        android:hint="Email address"
+        android:textSize="16sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/driverloginPassword"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/driverloginSubmitButton"
+            android:layout_width="0dip"
+            android:background="@drawable/shape_sign_in"
+            android:layout_height="40dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:text="Login"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/loginCancelButton"
+            android:layout_width="0dip"
+            android:background="@drawable/shape_sign_in"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

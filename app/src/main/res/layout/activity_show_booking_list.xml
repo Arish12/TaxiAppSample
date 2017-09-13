@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backlist"
+    android:orientation="vertical">
+    <TextView
+        android:text="Client List"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear1"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/client_detail_listA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="5dp"
+        android:background="#1dffd000"
+        android:layout_weight="1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

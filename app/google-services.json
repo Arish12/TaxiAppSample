@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "742681297095",
+    "firebase_url": "https://aaaforpush.firebaseio.com",
+    "project_id": "aaaforpush",
+    "storage_bucket": "aaaforpush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742681297095:android:74f4c1c77b3b29ff",
+        "android_client_info": {
+          "package_name": "com.itmaniaus.aaataxi.aaa.aaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742681297095-akhrhgbkapsf6hie5nr3blcuns06r5o1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "742681297095-ejslk98fk2qd6drp1t9k1dfk84vvg3a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHQceArpSwp5mhabd_PMA7RMUm7vMdcbw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742681297095:android:55f8fe22f736c6c5",
+        "android_client_info": {
+          "package_name": "taxi.itmaniaus.com.abctaxiuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742681297095-1njscq9o2all3c6spfn4t4t725b6v17t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "taxi.itmaniaus.com.abctaxiuser",
+            "certificate_hash": "3f5a2176dfd1ae6ae953eeecf5cb53825c756180"
+          }
+        },
+        {
+          "client_id": "742681297095-akhrhgbkapsf6hie5nr3blcuns06r5o1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "742681297095-ejslk98fk2qd6drp1t9k1dfk84vvg3a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHQceArpSwp5mhabd_PMA7RMUm7vMdcbw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742681297095-akhrhgbkapsf6hie5nr3blcuns06r5o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742681297095:android:50d6f96cc62361ff",
+        "android_client_info": {
+          "package_name": "arish.aaataxi.arisetech.com.aaataxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742681297095-q4elr4qo8fcllni6l0jq9677jh6302hb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arish.aaataxi.arisetech.com.aaataxi",
+            "certificate_hash": "3f5a2176dfd1ae6ae953eeecf5cb53825c756180"
+          }
+        },
+        {
+          "client_id": "742681297095-akhrhgbkapsf6hie5nr3blcuns06r5o1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "742681297095-ejslk98fk2qd6drp1t9k1dfk84vvg3a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHQceArpSwp5mhabd_PMA7RMUm7vMdcbw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742681297095-akhrhgbkapsf6hie5nr3blcuns06r5o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
